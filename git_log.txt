@@ -1,0 +1,39 @@
+I had originally followed the assignment but I did not create the website repository until after I had created the website. I had to recreate the repository to upload to make the site live.
+
+
+
+155  git clone https://github.com/bacevedo01/2.5-Solo_Challenge.git
+  156  ls
+  157  cd 2.5-Solo_Challenge
+  158  touch index.html
+  159  subl index.html
+  160  ls
+  161  touch peppers.html
+  162  subl pepper.html
+  163  cd ..
+  164  git clone https://github.com/bacevedo01/bacevedo01.github.io.git
+  165  cd..
+  166  ls
+  167  cd bacevedo01.github.io
+  168  ls
+  169  subl peppers.html
+  170  ls
+  171  git add hot_pepper_mash.jpg
+  172  git add index.html
+  173  git add pepper.jpg
+  174  git add pepper.html
+  175  git status
+  176  ls
+  177  git commit -m "Added index and pepper pages with 2.5 solo challenge content."
+  178  git push origin master 
+  179  git status
+  180  git branch
+  181  git checkout -b feature-branch
+  182  git status
+  183  ls
+  184  git status
+  185  git add index.html
+  186  git commit -m "Updated index with new title"
+  187  git push origin feature-branch 
+  188  touch git_log.txt
+  189  history
